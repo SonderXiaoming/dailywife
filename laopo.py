@@ -99,7 +99,7 @@ async def dailywife(bot, ev: CQEvent):
                     del config[record_id]
                 else:
                     try:
-                        id_list.remove(int(record_id))
+                        id_list.remove(int(config[record_id][0]))
                     except:
                         del config[record_id]
         wife_id = choice(id_list)
