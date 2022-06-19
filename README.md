@@ -44,6 +44,4 @@ git clone https://github.com/SonderXiaoming/dailywife
 
 ## 已知问题
 
-高并发下有可能抽到重复的老婆
-
 储存数据用json可能不太好
